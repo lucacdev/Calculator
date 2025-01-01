@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet" type="text/css" />
+    <link type="image/svg" sizes="16x16" rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/1/1e/Calculator_icon.svg" />
+</head>
+
+<body>
+    </br>
+    </br>
+    <h1><label class="result">...</label></h1>
+    </br>
+    <button onclick="btn('/100*')" class="op">%</button>
+    <button onclick="btn('**')" class="op">^</button>
+    <button onclick="btn('Math.sqrt(')" class="op">√</button>
+    <button onclick="calculateResult()" class="eq">=</button>
+    <button onclick="deleteLastCharacter()" class="del">←</button>
+    </br>
+    <button onclick="btn('7')" class="btn">7</button>
+    <button onclick="btn('8')" class="btn">8</button>
+    <button onclick="btn('9')" class="btn">9</button>
+    <button onclick="btn('/')" class="op">÷</button>
+    <button onclick="c()" class="del">c</button>
+    </br>
+    <button onclick="btn('4')" class="btn">4</button>
+    <button onclick="btn('5')" class="btn">5</button>
+    <button onclick="btn('6')" class="btn">6</button>
+    <button onclick="btn('*')" class="op">x</button>
+    </br>
+    <button onclick="btn('1')" class="btn">1</button>
+    <button onclick="btn('2')" class="btn">2</button>
+    <button onclick="btn('3')" class="btn">3</button>
+    <button onclick="btn('-')" class="op">-</button>
+    </br>
+    <button onclick="btn('.')" class="btn">.</button>
+    <button onclick="btn('0')" class="btn">0</button>
+    <button onclick="btn('(')" class="btn">()</button>
+    <button onclick="btn('+')" class="op">+</button>
+    <br>
+    <script src="calculator.js"></script>
+</body>
+
+</html>

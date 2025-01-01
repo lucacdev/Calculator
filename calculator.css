@@ -1,0 +1,77 @@
+button {
+    background-color: rgb(6, 6, 6);
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    margin-right: -10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+    padding-left: 33%;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.btn.onmouseover {
+    background-color: rgb(75, 75, 75);
+    transition: 0.4s ease-in-out;
+}
+
+.btn.click {
+    background-color: rgb(94, 94, 94);
+    transition: 0.3s ease-in-out;
+}
+
+.del {
+    background-color: darkred;
+}
+
+.del.onmouseover {
+    background-color: rgb(209, 52, 45);
+    transition: 0.4s ease-in-out;
+}
+
+.del.click {
+    background-color: rgb(200, 60, 55);
+    transition: 0.3s ease-in-out;
+}
+
+.op {
+    background-color: rgb(20, 20, 20);
+    transition: 0.4s ease-in-out;
+}
+
+.op.onmouseover {
+    background-color: rgb(71, 71, 71);
+    transition: 0.4s ease-in-out;
+}
+
+.op.click {
+    background-color: rgb(92, 92, 92);
+    transition: 0.3s ease-in-out;
+}
+
+.eq {
+    background-color: rgb(20, 93, 98);
+}
+
+.eq.onmouseover {
+    background-color: rgb(3, 167, 178);
+    transition: 0.4s ease-in-out;
+}
+
+.eq.click {
+    background-color: rgb(0, 183, 195);
+    transition: 0.3s ease-in-out;
+}
